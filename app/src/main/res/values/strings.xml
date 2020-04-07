@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Finger_COM_Driver_CCB_Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_name">COM采集仪测试软件</string>
+    <string name="btn_readVersion">设备版本</string>
+    <string name="btn_readTemplate">指纹模板</string>
+    <string name="btn_readFeature">指纹特征</string>
+    <string name="btn_fingerMatch">指纹比对</string> 
+    
+    <string name="txt_portname">设备节点名称:</string> 
+    <string name="txt_baudrate">设备波特率:</string> 
+    <string name="value_portname">/dev/ttyMT1</string>
+    <string name="value_baudrate">9600</string> 
+
+</resources>

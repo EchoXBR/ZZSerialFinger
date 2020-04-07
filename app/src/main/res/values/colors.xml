@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>  
+    <color name="gray_bg">#f0eff5</color>
+    <color name="gray">#9d9d9d</color>
+	<color name="colorPrimary">#33CCFF</color>
+    <color name="colorPrimaryDark">#35a5e7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue_band_dark">#12283d</color>
+    <color name="blue_band_light">#86ecef</color>
+    <color name="blue_band_light2">#6ad9de</color>
+    <color name="blue_band_dark2">#4d5d6d</color>
+    <color name="blue_band_dark3">#9688939e</color>    
+</resources>
