@@ -48,8 +48,8 @@ public class Power {
 
     public  void powerOn() {
         try {
-            deviceControlSpd.MainPowerOn(75);
-            deviceControlSpd.MainPowerOn(88);
+            deviceControlSpd.newSetGpioOn(75);
+            deviceControlSpd.newSetGpioOn(88);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -57,8 +57,8 @@ public class Power {
 
     public  void powerOff() {
         try {
-            deviceControlSpd.MainPowerOff(75);
-            deviceControlSpd.MainPowerOff(88);
+            deviceControlSpd.newSetGpioOff(75);
+            deviceControlSpd.newSetGpioOff(88);
         } catch (IOException e) {
             e.printStackTrace();
         }
