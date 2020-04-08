@@ -48,6 +48,8 @@ public class Power {
 
     public  void powerOn() {
         try {
+            // 使用指纹模块需要把76拉低，2.4G 模块需要拉高76
+            deviceControlSpd.newSetGpioOff(76);
             deviceControlSpd.newSetGpioOn(75);
             deviceControlSpd.newSetGpioOn(88);
         } catch (IOException e) {
